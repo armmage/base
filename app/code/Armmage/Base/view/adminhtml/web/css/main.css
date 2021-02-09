@@ -1,0 +1,19 @@
+.admin__menu #menu-armmage-base-armmage > a:before {
+    margin-bottom: 3px;
+    background: url(../images/armmage_logo.png) center center no-repeat;
+    content: "";
+    background-size: contain;
+}
+.config-nav .cpsconfig .admin__page-nav-title strong:before {
+    content: '';
+    background-image: url(../images/armmage_logo_small.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 70px;
+    background-position: 0 0;
+    height: 15px;
+    position: absolute;
+    width: 70px;
+    top: 20px;
+    left: 90px;
+}

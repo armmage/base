@@ -1,0 +1,22 @@
+{
+    "name": "armmage/module-base",
+    "description": "Base module for all Armage modules",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "armmagegroup@gmail.com",
+            "name": "Armmage"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Armmage\\Base\\": ""
+        }
+    }
+}
