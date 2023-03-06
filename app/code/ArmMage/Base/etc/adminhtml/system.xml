@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- 
+/**
+ * @package Base
+ *
+ * @author Gevorg Arshakyan <gevorg@armmage.com>
+ *
+ * @copyright Copyright (c) 2023 ArmMage (https://armmage.com)
+ */
+ -->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+
+    <system>
+        <tab id="armmage" translate="label" sortOrder="100">
+            <label>ArmMage</label>
+        </tab>
+    </system>
+
+</config>

@@ -1,0 +1,28 @@
+{
+    "name": "armmage/module-base",
+    "description": "ArmMage Base module",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "version": "1.0.1",
+    "authors": [
+        {
+            "email": "gevorg@armmage.com",
+            "name": "Gevorg Arshakyan",
+            "role": "Developer"
+        },
+        {
+            "email": "support@armmage.com",
+            "name": "Support"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ArmMage\\Base\\": ""
+        }
+    }
+}
